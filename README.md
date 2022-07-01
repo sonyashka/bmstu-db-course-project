@@ -5,4 +5,4 @@
 
 *Научный руководитель:* Юлия Михайловна Гаврилова
 
-Код можно посмотреть в [репозитории](https://github.com/sonyashka/soseduhska-bot)
+Код можно посмотреть в [репозитории](https://github.com/sonyashka/sosedushka-bot)
