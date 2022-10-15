@@ -13,7 +13,6 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 
-
 \usepackage{pgfplots}
 \pgfplotsset{compat=newest}
 \usepgfplotslibrary{units}
@@ -80,11 +79,11 @@
 % Настройки содержания
 
 \addtocontents{toc}{\setcounter{tocdepth}{2}}
-\addtocontents{toc}{\setcounter{secnumdepth}{1}}
+\addtocontents{toc}{\setcounter{secnumdepth}{2}}
 
 \usepackage{tocloft,lipsum,pgffor}
 
-\setlength{\cftbeforetoctitleskip}{0em}
+\setlength{\cftbeforetoctitleskip}{-1em}
 %\addtocontents{toc}{~\hfill\textnormal{Страница}\par}
 
 \renewcommand{\cftpartfont}{\normalfont\textmd}
@@ -114,6 +113,10 @@
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{b-red}{rgb}{0.88,0.25,0.41}
 \definecolor{royal-blue}{rgb}{0.25,0.41,0.88}
+
+
+\usepackage{pdfpages}
+
 
 \usepackage{listings}
 \lstset{
